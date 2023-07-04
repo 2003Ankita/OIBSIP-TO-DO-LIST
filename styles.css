@@ -1,0 +1,64 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #taskInputContainer {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #taskInputContainer input {
+    flex-grow: 1;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  
+  #taskInputContainer button {
+    padding: 20px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #taskInputContainer button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .delete-btn {
+    cursor: pointer;
+    color: #ff0000;
+  }
+  .warning {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  body{
+    background-color:grey;
+  }
+#lo{
+  border:black;
+}
